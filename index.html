@@ -4,15 +4,29 @@
 <head>
   <meta name = "viewport" content = "weidth=device-width, initial-scale=1.0" charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=noto:wght@300;400;500;600;700;800;900;" rel = "stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/6c6a31f549.js" crossorigin="anonymous"></script>
+  <!--<script src="app.js"></script>-->
   <title>Simple Weather App</title> 
 </head>
 
-<body>
-  <h1>Check Weather</h1>
-  <div class = "widget">
-    <h3>Weather</h3>
+<body style="font-family: noto">
+  
+  <div class = "Mainwidget">
+    <h3>Check the Weather in your City</h3>
+    <div class = "search-box">
+      <i class="location-dot"></i>
+      <input type="text" placeholder="Enter a location..." alt="Enter a locations search for weather">
+      <button class="searchButton" ></button>
+    </div>
+
+    <div class="notFound">
+      <p>Oops! Location search invalid.</p>
+      <img src="images/404.svg" alt="404 Not Found Image indicating that location specified is unavailible" width="75%">
+    </div>
   </div>
+
 </body>
 
 </html>
