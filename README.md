@@ -4,3 +4,5 @@
 Simply enter a city, country, location, or latitude and longitude to recieve weather data.
 
 For development: create .env file for storing API keys
+
+Uses openweathermap api to display weather data
