@@ -8,3 +8,5 @@ For development: create .env file for storing API keys
 Uses openweathermap api to display weather data
 
 work in progress...
+
+still working
